@@ -24,7 +24,6 @@ h1, h3, p, li , a{
 /* estilo da tag ancora */
 .dados_pessoais  a{
   text-decoration: none;
-
 }
 
 .dados_pessoais  a:visited{
@@ -32,5 +31,19 @@ h1, h3, p, li , a{
 }
 
 ul{
-    list-style-type: square;
+    list-style-type: square;   
+    margin: 0;
+    padding: 0; 
 }
+
+ul img{
+    vertical-align: middle;
+}
+li{
+    display: inline;
+    padding-left: 15px;
+}
+
+
+
+
