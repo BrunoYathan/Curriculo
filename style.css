@@ -1,7 +1,9 @@
+/* Corpo da Página */
 body{
     background-color: black;
     color:white;
     background-image: url(./assets/fundo-1.jpg);
+    
     /* Fonte Personalizada */
     font-family: 'Share Tech', sans-serif;
     font-size: 20px;
@@ -9,16 +11,15 @@ body{
 
 /* Container do curriculo */
 .curriculo-container{
-    background-color: rgb(0, 0, 0, 0.75);
+    background-color: rgb(0, 0, 0, 0.75); /*Cor de fundo transparente do curriculo*/
     margin:0 auto;
     padding:20px;
     width:550px;
-    border: 2px solid aqua;
-    box-shadow: 0 0 15px aqua;
-    
+    border: 2px solid aqua; /*Cor e efeito NEON do Curriculo*/
+    box-shadow: 0 0 15px aqua; 
 }
 
-/* Cores dos textos, titulos, listas e a tag ancora */
+/* Efeito NEON nos elementos h1, h3, p, li, a. */
 h1, h3, p, li , a{
     color:aqua;
     text-shadow: 0 0 15px aqua;
@@ -28,11 +29,11 @@ h1, h3, p, li , a{
 .dados_pessoais  a{
   text-decoration: none;
 }
-
 .dados_pessoais  a:visited{
     text-decoration: none;
 }
 
+/* Lista */
 ul{
     list-style-type: square;   
     margin: 0;
