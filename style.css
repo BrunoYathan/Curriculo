@@ -28,6 +28,8 @@ h1, h3, p, li , a{
 /* estilo da tag ancora */
 .dados_pessoais  a{
   text-decoration: none;
+  color:aquamarine;
+  text-shadow: 0 0 15px aquamarine;
 }
 .dados_pessoais  a:visited{
     text-decoration: none;
