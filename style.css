@@ -3,7 +3,8 @@ body{
     background-color: black;
     color:white;
     background-image: url(./assets/fundo-1.jpg);
-    
+    margin: 0;
+    padding: 0;
     
     /* Fonte Personalizada */
     font-family: 'Share Tech', sans-serif;
