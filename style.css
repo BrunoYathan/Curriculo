@@ -1,54 +1,62 @@
 /* Corpo da Página */
-body{
+body {
     background-color: black;
-    color:white;
+    color: white;
     background-image: url(./assets/fundo-1.jpg);
     margin: 0;
     padding: 0;
-    
+
     /* Fonte Personalizada */
     font-family: 'Share Tech', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 /* Container do curriculo */
-.curriculo-container{
-    background-color: rgb(0, 0, 0, 0.75); /*Cor de fundo transparente do curriculo*/
-    margin:auto;
-    padding:20px;
-   width: 40%;
-    border: 2px solid aqua; /*Cor e efeito NEON do Curriculo*/
-    box-shadow: 0 0 15px aqua; 
+.curriculo-container {
+    background-color: rgb(0, 0, 0, 0.75);
+    /*Cor de fundo transparente do curriculo ultimo valor = opacidade. */
+    margin: auto;
+    width: 550px;
+    padding: 15px;
+    border: 2px solid aqua;
+    /*Borda e cor*/
+    box-shadow: 0 0 15px aqua;
+}
+
+.curriculo-container, p {
+    text-align: justify;
 }
 
 /* Efeito NEON nos elementos h1, h3, p, li, a. */
-h1, h3, p, li , a{
-    color:aqua;
+h1,
+h3,
+p,
+li,
+a {
+    color: aqua;
     text-shadow: 0 0 15px aqua;
 }
 
-/* estilo da tag ancora */
-.dados_pessoais  a{
-  text-decoration: none;
-  color:aquamarine;
-  text-shadow: 0 0 15px aquamarine;
+/* estilo da tag ancora (a) */
+.dados_pessoais a {
+    text-decoration: none;
+    color: aquamarine;
+    text-shadow: 0 0 15px aquamarine;
 }
 
 /* Lista */
-ul{
-    list-style-type: square;   
+ul {
     margin: 0;
-    padding: 0; 
+    padding: 0;
 }
 
-ul img{
+ul img {
     vertical-align: middle;
 }
-li{
+
+li {
     display: inline;
     padding-left: 15px;
 }
 
 /* Responsividade */
-
-
