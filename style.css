@@ -27,6 +27,15 @@ body {
     text-align: justify;
 }
 
+.curriculo-container h1{
+    text-align: center;
+}
+
+.curriculo-container .linkedin:hover{
+color: green;
+text-shadow: 0 0 15px green;
+
+}
 /* Efeito NEON nos elementos h1, h3, p, li, a. */
 h1,
 h3,
@@ -38,7 +47,7 @@ a {
 }
 
 /* estilo da tag ancora (a) */
-.dados_pessoais a {
+.dados_pessoais .linkedin {
     text-decoration: none;
     color: aquamarine;
     text-shadow: 0 0 15px aquamarine;
